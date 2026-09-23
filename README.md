@@ -71,7 +71,8 @@ Constrained-random testing achieved 91.67% functional coverage.
 ### 4. UART Waveform
 
 The one-cycle offset between raddr and rdata is due to the non-blocking assignment in the registered read logic; rdata is updated after the clock edge in the NBA region, so it corresponds to the previous read address while raddr may already reflect the next address.
-<img width="2758" height="502" alt="Screenshot 2026-09-23 133225" src="https://github.com/user-attachments/assets/be80c423-bd2b-4f17-897d-8143e19cdcdc" />
+<img width="2758" height="502" alt="Screenshot 2026-09-23 133225" src="https://github.com/user-attachments/assets/938ce54d-2096-4d57-a81d-f6296583a5d5" />
+
 
 
 
