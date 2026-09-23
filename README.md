@@ -71,7 +71,8 @@ Constrained-random testing achieved 91.67% functional coverage.
 ### 4. FIFO Waveform
 
 The one-cycle offset between raddr and rdata is due to the non-blocking assignment in the registered read logic; rdata is updated after the clock edge in the NBA region, so it corresponds to the previous read address while raddr may already reflect the next address.
-<img width="2758" height="502" alt="Screenshot 2026-09-23 133225" src="https://github.com/user-attachments/assets/938ce54d-2096-4d57-a81d-f6296583a5d5" />
+<img width="2758" height="502" alt="Screenshot 2026-09-23 133225" src="https://github.com/user-attachments/assets/576ada84-d892-485d-a06d-7db9e0a54918" />
+
 
 
 
