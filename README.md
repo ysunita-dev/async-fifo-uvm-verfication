@@ -68,7 +68,7 @@ Constrained-random testing was used to exercise both write and read operations. 
 Constrained-random testing achieved 91.67% functional coverage.
 <img width="2414" height="642" alt="Screenshot 2026-09-20 194355" src="https://github.com/user-attachments/assets/6be09c5e-a7bf-4ad2-b6c5-31a410c59a28" />
 
-### 4. UART Waveform
+### 4. FIFO Waveform
 
 The one-cycle offset between raddr and rdata is due to the non-blocking assignment in the registered read logic; rdata is updated after the clock edge in the NBA region, so it corresponds to the previous read address while raddr may already reflect the next address.
 <img width="2758" height="502" alt="Screenshot 2026-09-23 133225" src="https://github.com/user-attachments/assets/938ce54d-2096-4d57-a81d-f6296583a5d5" />
